@@ -1,4 +1,4 @@
-# Image Classification for Disease Detection
+# Image Classification for Cotton Crop Disease Detection
 
 The sole purpose of this application is to predict whether an image belongs to the diseased class or not. In this dataset, we have four classes: diseased leaf, diseased plant, fresh leaf, and fresh plant. This project leverages transfer learning techniques using VGG16 and VGG19 models to classify images and assess how the accuracy is affected by these models.
 
