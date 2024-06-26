@@ -1,32 +1,32 @@
-# Neural Network Image Classification
+# Image Classification for Disease Detection
 
-This repository contains code and resources for image classification using VGG16 and ResNet50 models. The project aims to classify images into multiple categories using pre-trained convolutional neural networks (CNNs).
+The sole purpose of this application is to predict whether an image belongs to the diseased class or not. In this dataset, we have four classes: diseased leaf, diseased plant, fresh leaf, and fresh plant. This project leverages transfer learning techniques using VGG16 and VGG19 models to classify images and assess how the accuracy is affected by these models.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Training the Model](#training-the-model)
-  - [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+### Training VGG16 Model
+1. [Libraries](#libraries)
+2. [Training & DataLoader](#training--dataloader)
+3. [Building the VGG16](#building-the-vgg16)
+4. [Summary](#summary)
+5. [Training The VGG16](#training-the-vgg16)
+6. [Testing](#testing)
+7. [Conclusion](#conclusion)
 
-## Introduction
+### Training VGG19 Model
+1. [Libraries](#libraries-1)
+2. [Training & DataLoader](#training--dataloader-1)
+3. [Building the VGG19](#building-the-vgg19)
+4. [Summary](#summary-1)
+5. [Training The VGG19](#training-the-vgg19)
+6. [Testing](#testing-1)
+7. [Conclusion](#conclusion-1)
 
-Image classification is a crucial task in computer vision that involves categorizing images into predefined classes. This project leverages transfer learning using VGG16 and ResNet50 models to classify images.
+#### Final Conclusion
 
-## Dataset
+## Libraries
 
-The dataset used for this project is the Cotton Disease dataset. The dataset is organized into training and testing sets, each containing images categorized into different classes.
-
-## Installation
-
-To get started, clone this repository and install the required dependencies:
+To train and test the models, you need to install the required libraries:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-pip install -r requirements.txt
+pip install tensorflow keras numpy matplotlib
